@@ -10,6 +10,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+//Tasca 1
 public class TcpSocketServer {
     private Scanner sc = new Scanner(System.in);
     static final int PORT = 9090;

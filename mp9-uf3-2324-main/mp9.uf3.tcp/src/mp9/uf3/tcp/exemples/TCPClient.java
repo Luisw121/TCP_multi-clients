@@ -7,6 +7,7 @@ import java.net.Socket;
 import java.util.Arrays;
 import java.util.List;
 
+//Tasca 2
 public class TCPClient {
     public static void main(String[] args) {
         String serverName = "localhost";
@@ -17,7 +18,8 @@ public class TCPClient {
             ObjectOutputStream outToServer = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream inFromServer = new ObjectInputStream(socket.getInputStream());
 
-            List<Integer> numbers = Arrays.asList(5, 2, 7, 2, 9, 5, 1, 8);
+
+            List<Integer> numbers = Arrays.asList(5, 2, 7, 2, 9, 5, 1, 8, 3, 3);
             Llista lista = new Llista("Lista de numeros ", numbers);
 
             outToServer.writeObject(lista);

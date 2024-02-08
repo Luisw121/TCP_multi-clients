@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+//Tasca 1
 public class TcpSocketClient {
     private Scanner sc = new Scanner(System.in);
 

@@ -8,6 +8,7 @@ import java.net.Socket;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//Tasca 2
 public class TcpServer {
     public static void main(String[] args) {
         int portNumber = 12345;
@@ -39,6 +40,7 @@ public class TcpServer {
                     ObjectOutputStream outToClient = new ObjectOutputStream(clientSocket.getOutputStream());
                     ObjectInputStream inFromClient = new ObjectInputStream(clientSocket.getInputStream());
                     ) {
+
                 Llista lista = (Llista) inFromClient.readObject();
                 System.out.println("Lista recibida del cliente: " + lista.getNom() + " - " + lista.getNumberList());
 
