@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TCP multi-clients.iml" filepath="$PROJECT_DIR$/TCP multi-clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mp9-uf3-2324-main/mp9.uf3.tcp/mp9.uf3.tcp.iml" filepath="$PROJECT_DIR$/mp9-uf3-2324-main/mp9.uf3.tcp/mp9.uf3.tcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mp9-uf3-2324-main/mp9.uf3.udp/mp9.uf3.udp.iml" filepath="$PROJECT_DIR$/mp9-uf3-2324-main/mp9.uf3.udp/mp9.uf3.udp.iml" />
+    </modules>
+  </component>
+</project>
